@@ -53,10 +53,19 @@ select district_id, count(client_id) from bank.client group by district_id order
 
 #Query 14
 #In the card table, how many cards exist for each type? Rank the result starting with the most frequent type.
+select type, count(card_id) 
+from bank.card 
+group by type 
+order by count(card_id) desc;
 
 # Optional
 # Query 15
 # Using the loan table, print the top 10 account_ids based on the sum of all of their loan amounts.
+select (account_id), sum(amount)
+from bank.loan 
+group by account_id 
+order by sum(amount) desc
+limit 10;
 
 # Query 16
 # In the loan table, retrieve the number of loans issued for each day, before (excl) 930907, ordered by date in descending order.
