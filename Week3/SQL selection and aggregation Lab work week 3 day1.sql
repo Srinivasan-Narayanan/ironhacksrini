@@ -64,4 +64,12 @@ select date, count(loan_id) from bank.loan where date < 930907 group by date ord
 
 # query 17
 #In the loan table, for each day in December 1997, count the number of loans issued for each unique loan duration, ordered by date and duration, both in ascending order. You can ignore days without any loans in your output.
-select date, duration, count(loan_id) from bank.loan where date between 971201 and 971231 group by date, duration;
+select date, duration, count(loan_id) from bank.loan where date between 971201 and 971225 group by date, duration order by date, duration asc;
+
+# query 18
+# In the trans table, for account_id 396, sum the amount of transactions for each type (VYDAJ = Outgoing, PRIJEM = Incoming). Your output should have the account_id, the type and the sum of amount, named as total_amount. Sort alphabetically by type.
+select type, sum(amount) from bank.trans where account_id = 396 group by type;
+
+# Query 19
+# From the previous output, translate the values for type to English, rename the column to transaction_type, round total_amount down to an integer.
+select account_id, type ("PRIJEM" = "Incoming", "VYDAJ" = "Outgoing"), floor(sum(amount)) from bank.trans where account_id = 396 group by type;
