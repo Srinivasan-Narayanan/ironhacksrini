@@ -1,5 +1,5 @@
 ## Default Risk Prediction of Loans to Small Businesses in USA                                                          
-This final project plan has been drafted by Srinivasan (Srini) Narayanan on 08-Dec-2021 to provide a high level overview of the project including the deliveables with the deadline.
+This final project plan has been drafted by Srinivasan (Srini) Narayanan on 08-Dec-2021 to provide a high level overview of the project including the deliverables with the deadline.
 
 **Sole Member: Srinivasan (Srini) Narayanan**
 
