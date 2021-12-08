@@ -1,6 +1,7 @@
-## Default Risk Prediction of Loans to Small Businesses in USA                                                           Date: 08-Dec-2021
+## Default Risk Prediction of Loans to Small Businesses in USA                                                          
+This final project plan has been drafted by Srinivasan (Srini) Narayanan on 08-Dec-2021 to provide a high level overview of the project including the deliveables with the deadline.
 
-**Group Members: Srinivasan (Srini) Narayanan**
+**Sole Member: Srinivasan (Srini) Narayanan**
 
 **Objective**:
 Assess and predict the inherent risk of default in lending to small business customers in United States to facilitate data-driven lending decisions.
@@ -51,7 +52,7 @@ Regression model to be built on Jupyter notebook & the presentation of results o
 
 
 **Project timelines**:
-|Date           |Deliverables|
+|Delivery date  |Deliverables|
 |:--------------|:-------------------------------------------------------|
 |08-Dec-2021	|[x] Finalising the project idea and prepare the project plan|
 |09-Dec-2021	|[] Data wrangling/Exploratory data analysis|
