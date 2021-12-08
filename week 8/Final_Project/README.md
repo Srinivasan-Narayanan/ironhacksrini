@@ -51,14 +51,16 @@ Regression model to be built on Jupyter notebook & the presentation of results o
 
 
 **Project timelines**:
-08-Dec-2021	Finalising the project idea and prepare the project plan
-09-Dec-2021	Data wrangling/Exploratory data analysis
-10-Dec-2021	Exploratory data analysis/preparing the data for modelling
-13-Dec-2021	Building the model
-14-Dec-2021	fine tuning the model
-15-Dec-2021	Summarize the results and prepare presentation on Tableau
-16-Dec-2021	Prepare the presentation speech and practice presentation
-17-Dec-2021	Present the final project to the team
+|Date           |Deliverables|
+|:--------------|:-------------------------------------------------------|
+|08-Dec-2021	|[x] Finalising the project idea and prepare the project plan|
+|09-Dec-2021	|[] Data wrangling/Exploratory data analysis|
+|10-Dec-2021	|[] Exploratory data analysis/preparing the data for modelling|
+|13-Dec-2021	|[] Building the model|
+|14-Dec-2021	|[] Fine tuning the model|
+|15-Dec-2021	|[] Summarize the results and prepare presentation on Tableau|
+|16-Dec-2021	|[] Prepare the presentation speech and practice presentation|
+|17-Dec-2021	|[] Present the final project to the team|
 
 
 
